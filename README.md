@@ -11,4 +11,4 @@ My solutions to coding interview questions
 
 | Question                                                      | Difficulty | Category             | Approach                 |
 | ------------------------------------------------------------- | ---------- | -------------------- | ------------------------ |
-| [Two Number Sum](/Easy/two-number-sum.md)                     |     🟢     | Arrays               | Hash Table, Two Pointers |
+| [First Reverse](First%20Reverse.md)                           |     🟢     | Strings             | Built-In Functions, Decrementing For Loop, Recursion |
