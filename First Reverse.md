@@ -1,9 +1,15 @@
-# Binary Search
+# [First Reverse](https://www.coderbyte.com/editor/First%20Reverse:JavaScript)
 
 ### Understanding the problem
 
-Given a sorted array of integers and a target integer, I am asked to write a function that uses Binary Search algorithm to find out if the target integer is in the array. If the target is in the array, the function should return its index, otherwise return `-1`.
+Have the function FirstReverse(str) take the str parameter being passed and return the string in reversed order. For example: if the input string is "Hello World and Coders" then your program should return the string sredoC dna dlroW olleH.
 
+```
+Input: "coderbyte"
+Output: etybredoc
+Input: "I Love Code"
+Output: edoC evoL I
+```
 #
 
 ### Approach 1: Iterative
