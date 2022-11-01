@@ -12,41 +12,35 @@ Output: edoC evoL I
 ```
 #
 
-### Approach 1: Iterative
+### Approach 1: Reverse a String With Built-In Functions
 
-The Binary Search algorithm works by dividing the search space into halves, and based on the value of the middle element, it eliminates half of the search space.
+For this solution, we will use three methods: the String.prototype.split() method, the Array.prototype.reverse() method and the Array.prototype.join() method.
 
-We maintain two pointers `left` and `right` that are going to define the current search space. Initially, the search space is the entire list. We find the middle value using the two pointers and compare it to the search target. If the middle value is equal to the target value, we've found the target. If the middle value is greater than the target, then it means the target value cannot lie in the right half of the search space. Because the list is sorted, all the values that come after the middle value must be greater than the middle value and even greater than the target, so we can remove the entire right half, narrowing down the search space to the left half. If the middle value is smaller than the target, then we can discard the entire left half and search for the target value in the right half. We repeat this process until the target value is found, or our search space is exhausted.
+The split() method splits a String object into an array of string by separating the string into sub strings.  
+The reverse() method reverses an array in place. The first array element becomes the last and the last becomes the first.   
+The join() method joins all elements of an array into a string.  
 
 ### Implementation
 
 ```js
-function binarySearch(array, target) {
-  let left = 0;
-  let right = array.length - 1;
-
-  while (left <= right) {
-    // Avoid overflow
-    const mid = left + Math.floor((right - left) / 2);
-
-    if (target === array[mid]) return mid;
-
-    if (target < array[mid]) {
-      right = mid - 1;
-    } else {
-      left = mid + 1;
-    }
-  }
-  return -1;
+function FirstReverse(str) {
+    return str.split("").reverse().join("");
 }
+FirstReverse("coderbyte");
 ```
 
-### Complexity Analysis
+### Approach 2: Reverse a String With a Decrementing For Loop
+### Implementation
+```js
+function FirstReverse(str) {
+    let newString = "";
+    for (let i = str.length - 1; i >= 0; i--) {
+        newString += str[i];
+    }
+    return newString;
+}
+FirstReverse("coderbyte");
+```
 
-- Time Complexity: O(log(N)), where N is the number of integers in the input array.
 
-- Space Complexity: O(1).
 
-#
-
-### Approach 2: Recursive
