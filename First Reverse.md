@@ -16,9 +16,9 @@ Output: edoC evoL I
 
 For this solution, we will use three methods: the String.prototype.split() method, the Array.prototype.reverse() method and the Array.prototype.join() method.
 
-The split() method splits a String object into an array of string by separating the string into sub strings.  
-The reverse() method reverses an array in place. The first array element becomes the last and the last becomes the first.   
-The join() method joins all elements of an array into a string.  
+- The split() method splits a String object into an array of string by separating the string into sub strings.  
+- The reverse() method reverses an array in place. The first array element becomes the last and the last becomes the first.   
+- The join() method joins all elements of an array into a string.  
 
 ### Implementation
 
