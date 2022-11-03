@@ -26,10 +26,14 @@ For this solution, we will use three methods: the `String.prototype.split()` met
 function FirstReverse(str) {
     return str.split("").reverse().join("");
 }
-FirstReverse("coderbyte");
+console.log(FirstReverse("coderbyte"));
 ```
 
 ### Approach 2: Reverse a String With a Decrementing For Loop
+
+The starting point of the loop will be `(str.length - 1)` which corresponds to the last character of the string, `"e"`.
+As long as `i` is greater than or equals `0`, the loop will go on. We decrement `i` after each iteration.
+
 ### Implementation
 ```js
 function FirstReverse(str) {
@@ -39,7 +43,7 @@ function FirstReverse(str) {
     }
     return newString;
 }
-FirstReverse("coderbyte");
+console.log(FirstReverse("coderbyte"));
 ```
 
 
