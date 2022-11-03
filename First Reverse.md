@@ -28,7 +28,7 @@ function FirstReverse(str) {
 }
 console.log(FirstReverse("coderbyte"));
 ```
-
+#
 ### Approach 2: Reverse a String With a Decrementing For Loop
 
 The starting point of the loop will be `(str.length - 1)` which corresponds to the last character of the string, `"e"`.
@@ -45,6 +45,26 @@ function FirstReverse(str) {
 }
 console.log(FirstReverse("coderbyte"));
 ```
+#
+### Approach 3: Reverse a String With Recursion
 
+For this solution, we will use two methods: the `String.prototype.substr()` method and the `String.prototype.charAt()` method.
 
+- The `substr()` method returns the characters in a string beginning at the specified location through the specified number of characters.
+  - `"coderbyte".substr(1); // "oderbyte"`
+- The `charAt()` method returns the specified character from a string.
+  - `"coderbyte".charAt(0); // "c"`
+ 
+The depth of the recursion is equal to the length of the String. This solution is not the best one and will be really slow if the String is very long and the stack size is of major concern.
 
+### Implementation
+
+```js
+function FirstReverse(str) {
+  if (str === "")
+    return "";
+  else
+    return FirstReverse(str.substr(1)) + str.charAt(0);
+}
+console.log(FirstReverse("coderbyte"));
+```
