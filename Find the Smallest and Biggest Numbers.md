@@ -1,14 +1,21 @@
+# Find the Smallest and Biggest Numbers
+### Understanding the problem
 Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.
 
-Examples
-minMax([1, 2, 3, 4, 5]) ➞ [1, 5]
+<pre>
+<b>Input:</b> minMax([1, 2, 3, 4, 5])
+<b>Output:</b> [1, 5]
+<b>Input:</b> minMax([2334454, 5])
+<b>Output:</b> [5, 2334454]
+<b>Input:</b> minMax([1])
+<b>Output:</b> [1, 1]
+</pre>
+<b>Notes:</b> All test arrays will have at least one element and are valid.
+#
 
-minMax([2334454, 5]) ➞ [5, 2334454]
-
-minMax([1]) ➞ [1, 1]
-Notes
-All test arrays will have at least one element and are valid.
-
+### Approach : Built-In Functions
+### Implementation
+```js
 function minMax(arr){
   let arrResult = [];
   arrResult.push(Math.min(...arr));
@@ -19,3 +26,4 @@ function minMax(arr){
 console.log(minMax([1, 2, 3, 4, 5]));
 console.log(minMax([2334454, 5]));
 console.log(minMax([1]));
+```
