@@ -13,4 +13,4 @@ My solutions to coding interview questions
 | ------------------------------------------------------------- | ---------- | -------------------- | ------------------------ |
 | [First Reverse](First%20Reverse.md)                           |     🟢     | Strings             | Built-In Functions, Decrementing For Loop, Recursion  |
 | [Find the Smallest and the Biggest Numbers](Find%20the%20Smallest%20and%20Biggest%20Numbers.md)| 🟢| Arrays | Built-In Functions|
-| [Longest Word](Longest%20Word.md)                           |     🟢     |       Strings       | For Loop  |
+| [Longest Word](Longest%20Word.md)                           |     🟢     |       Strings       |  For Loop  |
