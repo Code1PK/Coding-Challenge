@@ -15,4 +15,4 @@ My solutions to coding interview questions
 | [Find the Smallest and the Biggest Numbers](Find%20the%20Smallest%20and%20Biggest%20Numbers.md)| 🟢| Arrays | Built-In Functions|
 | [Longest Word](Longest%20Word.md)                           |     🟢     |       Strings       | For Loop  |
 |What's Hiding Amongst the Crowd?|     🟢     |       Arrays       | For Loop  |
-|Older Than Me  |     🟢     |       Arrays       | For Loop  |
+|Older Than Me   |     🟢     |       Arrays       | For Loop  |
