@@ -16,4 +16,4 @@ My solutions to coding interview questions
 |3| [Longest Word](Longest%20Word.md)                           |     🟢     |       Strings       | For Loop  |
 |4|What's Hiding Amongst the Crowd?|     🟢     |       Arrays       | For Loop  |
 |5|Older Than Me  |     🟢     |       Arrays       | For Loop  |
-|6|Sum of Polygon Angles |     🟢     |       Numbers       | Math  |
+|6|[Sum of Polygon Angles](Sum%20of%20Polygon%20Angles.md) |     🟢     |       Numbers       | Math  |
