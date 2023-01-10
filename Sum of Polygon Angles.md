@@ -13,7 +13,7 @@ The formula `(n - 2) x 180` gives the sum of all the measures of the angles of a
 </pre>
 
 #
-### Approach: Use math formula.
+### Approach: Use math formula
 
 To write our function, all we have to do is return the result of the formula `(n - 2) x 180`.
 
