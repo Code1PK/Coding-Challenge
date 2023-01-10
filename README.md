@@ -17,4 +17,4 @@ My solutions to coding interview questions
 |4|What's Hiding Amongst the Crowd?|     🟢     |       Arrays       | For Loop  |
 |5|Older Than Me  |     🟢     |       Arrays       | For Loop  |
 |6|[Sum of Polygon Angles](Sum%20of%20Polygon%20Angles.md) |     🟢     |       Numbers       | Math  |
-|6|[Pair Management](Pair%20Management.md) |     🟢     |       Arrays       | Spread Syntax, Built-In Functions  |
+|7|[Pair Management](Pair%20Management.md) |     🟢     |       Arrays       | Spread Syntax, Built-In Functions  |
