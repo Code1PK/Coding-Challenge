@@ -13,10 +13,16 @@ Write a function that converts an object into an array, where each element repre
 
 #
 ### Approach: 
+The `Object.entries()` static method returns an array of a given object's own enumerable string-keyed property key-value pairs.
 
 ### Implementation
 ```js
 function toArray(obj) {
-	
+  let newArr = Object.entries(obj);
+	return newArr;
 }
+
+console.log(toArray({ a: 1, b: 2 }));
+console.log(toArray({ shrimp: 15, tots: 12 }));
+console.log(toArray({}));
 ```
