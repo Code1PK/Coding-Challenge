@@ -12,7 +12,7 @@ Write a function that converts an object into an array, where each element repre
 </pre>
 
 #
-### Approach: 
+### Approach: Built-In Functions
 The `Object.entries()` static method returns an array of a given object's own enumerable string-keyed property key-value pairs.
 
 ### Implementation
