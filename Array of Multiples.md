@@ -17,5 +17,15 @@ Create a function that takes two numbers as arguments (`num`, `length`) and retu
 
 ### Implementation
 ```js
+function arrayOfMultiples (num, length) {
+  let arr = [];
+  for(i = 1; i <= length; i ++){
+    let number = i*num;
+    arr.push(number);
+  }
+	return arr;
+}
 
+console.log(arrayOfMultiples(7,5));
+console.log(arrayOfMultiples(17,6));
 ```
