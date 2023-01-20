@@ -12,8 +12,7 @@ Create a function that takes two numbers as arguments (`num`, `length`) and retu
 </pre>
 
 #
-### Approach: 
-
+### Approach: For Loop, Built-In Functions
 
 ### Implementation
 ```js
