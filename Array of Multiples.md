@@ -2,7 +2,7 @@
 
 ### Understanding the problem
 
-Create a function that takes two numbers as arguments (`num`, `length`) and returns an array of multiples of `num` until the array length reaches `length`.
+Create a function that takes two numbers as arguments (`num`, `length`) and returns an array of multiples of `num` until the array length reaches `length`. Notice that `num` is also included in the returned array.
 
 <pre>
 <b>Input:</b> (7, 5)
