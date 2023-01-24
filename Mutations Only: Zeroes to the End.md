@@ -14,9 +14,20 @@ Write a function that moves all the zeroes to the end of an array. Do this `with
 </pre>
 
 #
-### Approach: Built-In Functions
+### Approach: For loop
 
 ### Implementation
 ```js
-
+function zeroesToEnd(a) {
+  let count = 0;
+	for(i = 0; i < a.length; i ++){
+    if(a[i] !== 0){
+     a[count++] = a[i];
+    } 
+  }
+  for(i = count; i < a.length; i ++){
+    a[i] = 0;
+  }
+   return a;
+}
 ```
