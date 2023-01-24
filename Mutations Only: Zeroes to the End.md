@@ -20,7 +20,7 @@ Write a function that moves all the zeroes to the end of an array. Do this `with
 ```js
 function zeroesToEnd(a) {
   let count = 0;
-	for(i = 0; i < a.length; i ++){
+  for(i = 0; i < a.length; i ++){
     if(a[i] !== 0){
      a[count++] = a[i];
     } 
