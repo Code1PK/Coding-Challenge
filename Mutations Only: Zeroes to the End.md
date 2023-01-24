@@ -14,7 +14,7 @@ Write a function that moves all the zeroes to the end of an array. Do this `with
 </pre>
 
 #
-### Approach: For loop
+### Approach: For Loop
 
 ### Implementation
 ```js
