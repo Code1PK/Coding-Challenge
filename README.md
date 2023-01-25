@@ -1,5 +1,5 @@
 # Coding-Challenge
-My solutions to coding interview questions
+My solutions to coding problems.
 #### Difficulty Levels
 
 🟢 Easy  
@@ -23,4 +23,5 @@ My solutions to coding interview questions
 |10|[Array of Multiples](Array%20of%20Multiples.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions |
 |11|[Seven Boom!](Seven%20Boom!.md)   |     🔵   |       Arrays       |  Built-In Functions |
 |12|[Mutations Only: Zeroes to the End](https://github.com/Code1PK/Coding-Challenge/blob/main/Mutations%20Only:%20Zeroes%20to%20the%20End.md)|⚫️|Arrays|   For Loop, Built-In Functions |
+|13|[Two Sum](Two%20Sum.md)  |     🟢     |       Arrays       |  For Loop, Built-In Functions |
 
