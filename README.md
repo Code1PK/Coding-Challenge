@@ -9,8 +9,8 @@ My solutions to coding problems.
 
 ## Questions
 
-| | Question                                                      | Difficulty | Category             | Approach                 |
-|-| ------------------------------------------------------------- | ---------- | -------------------- | ------------------------ |
+| | Question                                                      | Difficulty | Category             | Approach                 |Resource|
+|-| ------------------------------------------------------------- | ---------- | -------------------- | ------------------------ |-----|
 |1| [First Reverse](First%20Reverse.md)                           |     🟢     | Strings             | Built-In Functions, Decrementing For Loop, Recursion  |
 |2| [Find the Smallest and the Biggest Numbers](Find%20the%20Smallest%20and%20Biggest%20Numbers.md)| 🟢| Arrays | Built-In Functions|
 |3| [Longest Word](Longest%20Word.md)                           |     🟢     |       Strings       | Built-In Functions  |
@@ -23,5 +23,5 @@ My solutions to coding problems.
 |10|[Array of Multiples](Array%20of%20Multiples.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions |
 |11|[Seven Boom!](Seven%20Boom!.md)   |     🔵   |       Arrays       |  Built-In Functions |
 |12|[Mutations Only: Zeroes to the End](https://github.com/Code1PK/Coding-Challenge/blob/main/Mutations%20Only:%20Zeroes%20to%20the%20End.md)|⚫️|Arrays|   For Loop, Built-In Functions |
-|13|[Two Sum](Two%20Sum.md)  |     🟢     |       Arrays       |  For Loop |
-|14|[Remove Duplicates from Sorted Array](Remove%20Duplicates%20from%20Sorted%20Array.md)   |     🟢     |       Arrays       |  For Loop |
+|13|[Two Sum](Two%20Sum.md)  |     🟢     |       Arrays       |  For Loop | LeetCode |
+|14|[Remove Duplicates from Sorted Array](Remove%20Duplicates%20from%20Sorted%20Array.md)   |     🟢     |       Arrays       |  For Loop | LeetCode |
