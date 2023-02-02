@@ -12,12 +12,10 @@ Do not allocate extra space for another array. You must do this by modifying the
 
 
 <pre>
-<b>Input:</b> 
-<b>Output:</b> 
-<b>Input:</b> 
-<b>Output:</b> 
-<b>Input:</b> 
-<b>Output:</b> 
+<b>Input:</b> [1,1,2]
+<b>Output:</b> 2, nums = [1,2,_]
+<b>Input:</b> nums = [0,0,1,1,1,2,2,3,3,4]
+<b>Output:</b> 5, nums = [0,1,2,3,4,_,_,_,_,_]
 </pre>
 
 #
@@ -25,5 +23,14 @@ Do not allocate extra space for another array. You must do this by modifying the
 
 ### Implementation
 ```js
-
+function removeDuplicates(nums){
+  let k = 1;
+  for(let i = 1; i < nums.length; i++){
+    if(nums[i-1] != nums[i]){
+      nums[k] = nums[i];
+      k++;
+    }
+  }
+  return k;
+}
 ```
