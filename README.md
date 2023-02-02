@@ -25,4 +25,4 @@ My solutions to coding problems.
 |12|[Mutations Only: Zeroes to the End](https://github.com/Code1PK/Coding-Challenge/blob/main/Mutations%20Only:%20Zeroes%20to%20the%20End.md)|⚫️|Arrays|   For Loop, Built-In Functions |
 |13|[Two Sum](Two%20Sum.md)  |     🟢     |       Arrays       |  For Loop | LeetCode |
 |14|[Remove Duplicates from Sorted Array](Remove%20Duplicates%20from%20Sorted%20Array.md)   |     🟢     |       Arrays       |  For Loop | LeetCode |
-|15|[Plus One](Plus%20One.md)   |     🟢     |       Arrays       |  For Loop | LeetCode |
+|15|[Plus One](Plus%20One.md)   |     🟢     |       Arrays       |  Built-In Functions | LeetCode |
