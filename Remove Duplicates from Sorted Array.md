@@ -19,7 +19,7 @@ Do not allocate extra space for another array. You must do this by modifying the
 </pre>
 
 #
-### Approach: For Loop
+### Approach: Two indexes approach, For Loop
 
 ### Implementation
 ```js
