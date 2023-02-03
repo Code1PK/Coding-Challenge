@@ -16,17 +16,21 @@ Increment the large integer by one and return the `resulting array of digits`.
 </pre>
 
 #
-### Approach: Built-In Functions
+### Approach: For loop
 
 ### Implementation
 ```js
-function addOne(arr){
-  let integer = arr.join('');
-  let incrementInt = Number(integer) + 1;
-  let res = incrementInt.toString().split('');
-  return resultingArr;
+function plusOne(digits) {
+  for (let i = digits.length - 1; i >= 0; i--) {
+    if (digits[i] === 9) {
+      digits[i] = 0;
+    } else {
+      digits[i]++;
+      return digits;
+    }
+  }
+  digits.unshift(1);
+  return digits;
 }
 
-console.log(addOne([1,2,3]));
-console.log(addOne([4,3,2,1]));
 ```
