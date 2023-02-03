@@ -16,7 +16,13 @@ Increment the large integer by one and return the `resulting array of digits`.
 </pre>
 
 #
-### Approach: For loop
+### Approach 1: Reverse a String With Built-In Functions
+
+For this solution, we will use three methods: the `String.prototype.split()` method, the `Array.prototype.reverse()` method and the `Array.prototype.join()` method.
+
+- The `unshift()` method is used in the code to add the value 1 to the beginning of the digits array in the case where all of the digits are 9. This is necessary because the incrementation of the last digit (which is 9) results in a carry-over that adds a leading digit of 1 to the number.
+
+For example, if the original array digits is [9, 9, 9], after the loop has completed, the array will be [0, 0, 0]. To correctly represent the incremented number, which is 1000, the unshift() method is used to add 1 to the beginning of the array, resulting in [1, 0, 0, 0].
 
 ### Implementation
 ```js
