@@ -20,6 +20,8 @@ The final sorted array should not be returned by the function, but instead be st
 #
 ### Approach: Built-In Functions
 
+The function first removes the `n` number of elements from the end of `nums1` using the `splice()` method, then concatenates `nums2` to `nums1` using the `push()` method and the `spread operator`. Finally, the `sort()` method is used to sort the combined array in non-decreasing order.
+
 ### Implementation
 ```js
 function mergeArray(num1,m,num2,n){
