@@ -1,5 +1,5 @@
 # Coding-Challenge
-My solutions to coding problems.
+I am providing solutions to coding problems using the JavaScript language.
 #### Difficulty Levels
 
 🟢 Easy  
