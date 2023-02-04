@@ -26,3 +26,4 @@ My solutions to coding problems.
 |13|[Two Sum](Two%20Sum.md)  |     🟢     |       Arrays       |  For Loop | LeetCode |
 |14|[Remove Duplicates from Sorted Array](Remove%20Duplicates%20from%20Sorted%20Array.md)   |     🟢     |       Arrays       |  For Loop | LeetCode |
 |15|[Plus One](Plus%20One.md)   |     🟢     |       Arrays       |  For loop | LeetCode |
+|16|[Merge Sorted Array](Merge%20Sorted%20Array.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions | LeetCode |
