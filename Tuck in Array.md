@@ -1,16 +1,19 @@
-# [Plus One](https://leetcode.com/problems/plus-one/)
+# [Tuck in Array](https://edabit.com/challenge/7ysTEDruHz2prcJQ9)
 
 ### Understanding the problem
 
+Create a function that takes two arrays and insert the second array in the middle of the first array.
+Notes:
+- The first array always has two elements.
+- Use the spread syntax to solve this challenge.
 
 <pre>
-<b>Input:</b> digits = [1,2,3]
-<b>Output:</b> [1,2,4]
-<b>Explanation:</b> The array represents the integer 123. Incrementing by one gives 123 + 1 = 124. Thus, the result should be [1,2,4].
-
-<b>Input:</b> digits = [4,3,2,1]
-<b>Output:</b> [4,3,2,2]
-<b>Explanation:</b> The array represents the integer 4321. Incrementing by one gives 4321 + 1 = 4322. Thus, the result should be [4,3,2,2].
+<b>Input:</b> tuckIn([1, 10], [2, 3, 4, 5, 6, 7, 8, 9])
+<b>Output:</b> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+<b>Input:</b> tuckIn([15,150], [45, 75, 35])
+<b>Output:</b> [15, 45, 75, 35, 150]
+<b>Input:</b> tuckIn([[1, 2], [5, 6]], [[3, 4]])
+<b>Output:</b> [[1, 2], [3, 4], [5, 6]]
 </pre>
 
 #
