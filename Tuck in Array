@@ -2,15 +2,15 @@
 
 ### Understanding the problem
 
+Create a function that takes two arrays and insert the second array in the middle of the first array.
 
 <pre>
-<b>Input:</b> 
-<b>Output:</b> 
-<b>Explanation:</b> 
-
-<b>Input:</b> 
-<b>Output:</b> 
-<b>Explanation:</b> 
+<b>Input:</b> tuckIn([1, 10], [2, 3, 4, 5, 6, 7, 8, 9])
+<b>Output:</b> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+<b>Input:</b> tuckIn([15,150], [45, 75, 35])
+<b>Output:</b> [15, 45, 75, 35, 150]
+<b>Input:</b> tuckIn([[1, 2], [5, 6]], [[3, 4]])
+<b>Output:</b> [[1, 2], [3, 4], [5, 6]]
 </pre>
 
 #
