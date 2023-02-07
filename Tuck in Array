@@ -4,7 +4,6 @@
 
 Create a function that takes two arrays and insert the second array in the middle of the first array.
 
-
 <pre>
 <b>Input:</b> tuckIn([1, 10], [2, 3, 4, 5, 6, 7, 8, 9])
 <b>Output:</b> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
@@ -15,11 +14,3 @@ Create a function that takes two arrays and insert the second array in the middl
 </pre>
 
 #
-### Approach: Built-In Function
-
-
-### Implementation
-```js
-
-
-```
