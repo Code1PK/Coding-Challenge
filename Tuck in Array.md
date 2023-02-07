@@ -18,7 +18,7 @@ Create a function that takes two arrays and insert the second array in the middl
 </pre>
 
 #
-### Approach: For Loop With Built-In Function
+### Approach: Built-In Function
 
 ### Implementation
 ```js
