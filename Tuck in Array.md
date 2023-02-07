@@ -3,7 +3,8 @@
 ### Understanding the problem
 
 Create a function that takes two arrays and insert the second array in the middle of the first array.
-Notes:
+
+<b>Notes:</b>
 - The first array always has two elements.
 - Use the spread syntax to solve this challenge.
 
