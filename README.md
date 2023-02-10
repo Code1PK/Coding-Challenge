@@ -28,4 +28,4 @@ I am providing solutions to coding problems using the JavaScript language.
 |15|[Plus One](Plus%20One.md)   |     🟢     |       Arrays       |  For loop | LeetCode |
 |16|[Merge Sorted Array](Merge%20Sorted%20Array.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions | LeetCode |
 |16|[Tuck in Array](Tuck%20in%20Array.md)   |     🟢     |       Arrays       |  Built-In Functions | Edabit|
-|17|[Filter out Strings from an Array](Filter%20out%20Strings%20from%20an%20Array.md)   |     🟢     |       Arrays       |  For Loop | Edabit|
+|17|[Filter out Strings from an Array](Filter%20out%20Strings%20from%20an%20Array.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions | Edabit|
