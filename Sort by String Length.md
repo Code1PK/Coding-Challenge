@@ -22,5 +22,7 @@ Create a function that returns an `array` of strings sorted by length in `ascend
 
 ### Implementation
 ```js
-
+function sortByLength(arr){
+  return arr.sort((a,b) => a.length - b.length);
+}
 ```
