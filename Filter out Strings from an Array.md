@@ -20,7 +20,7 @@ Create a function that takes an `array` of non-negative integers and strings and
 </pre>
 
 #
-### Approach: For Loop
+### Approach 1: For Loop
 
 ### Implementation
 ```js
@@ -34,4 +34,21 @@ function filterArray(arr){
   let uniqueNumbers; 
   return uniqueNumbers = [...new Set(filteredArray)];
 }
+```
+#
+### Approach 2: Built-In Functions
+In this function, we initialize an empty array `uniqueNumbers` to store the unique non-negative integers. Then, we use the `forEach` method to iterate over the input array `arr`. For each element in the array, the function checks if its type is `'number'` and if it is not already in the `uniqueNumbers` array (using the `includes` method). If both conditions are satisfied, the `number` is added to the `uniqueNumbers` array. Finally, the `uniqueNumbers` array is returned as the result.
+
+### Implementation
+```js
+function filterArray(arr) {
+  let uniqueNumbers = [];
+  arr.forEach(function(val) {
+    if (typeof val === 'number' && !uniqueNumbers.includes(val)) {
+      uniqueNumbers.push(val);
+    }
+  });
+  return uniqueNumbers;
+}
+
 ```
