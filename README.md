@@ -27,5 +27,6 @@ I am providing solutions to coding problems using the JavaScript language.
 |14|[Remove Duplicates from Sorted Array](Remove%20Duplicates%20from%20Sorted%20Array.md)   |     🟢     |       Arrays       |  For Loop | LeetCode |
 |15|[Plus One](Plus%20One.md)   |     🟢     |       Arrays       |  For loop | LeetCode |
 |16|[Merge Sorted Array](Merge%20Sorted%20Array.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions | LeetCode |
-|16|[Tuck in Array](Tuck%20in%20Array.md)   |     🟢     |       Arrays       |  Built-In Functions | Edabit|
-|17|[Filter out Strings from an Array](Filter%20out%20Strings%20from%20an%20Array.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions | Edabit|
+|17|[Tuck in Array](Tuck%20in%20Array.md)   |     🟢     |       Arrays       |  Built-In Functions | Edabit|
+|18|[Filter out Strings from an Array](Filter%20out%20Strings%20from%20an%20Array.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions | Edabit|
+|19|[Sort by String Length](Sort%20by%20String%20Length.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions | Edabit|
