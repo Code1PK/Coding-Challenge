@@ -2,17 +2,17 @@
 
 ### Understanding the problem
 
-Create a function that returns an array of strings sorted by length in ascending order.
+Create a function that returns an `array` of strings sorted by length in `ascending` order.
 
 <b>Notes</b>
 - Strings will have unique lengths, so don't worry about comparing two strings with identical length.
-- Return an empty array if the input array is empty (see example #4).
+- Return an empty array if the input array is empty.
 
 <pre>
 <b>Input:</b> sortByLength(["a", "ccc", "dddd", "bb"])
 <b>Output:</b> ["a", "bb", "ccc", "dddd"]
 <b>Input:</b> sortByLength(["apple", "pie", "shortcake"])
-<b>Output:</b> [["pie", "apple", "shortcake"]
+<b>Output:</b> ["pie", "apple", "shortcake"]
 <b>Input:</b> sortByLength([])
 <b>Output:</b> []
 </pre>
