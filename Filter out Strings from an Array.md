@@ -20,9 +20,18 @@ Create a function that takes an `array` of non-negative integers and strings and
 </pre>
 
 #
-### Approach: Built-In Function
+### Approach: For Loop
 
 ### Implementation
 ```js
-
+function filterArray(arr){
+  let filteredArray = [];
+  for (let i = 0; i < arr.length; i++){
+    if (Number.isInteger(arr[i]) === true){
+      filteredArray.push(arr[i])
+    }
+  }
+  let uniqueNumbers; 
+  return uniqueNumbers = [...new Set(filteredArray)];
+}
 ```
