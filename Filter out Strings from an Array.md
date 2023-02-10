@@ -22,6 +22,16 @@ Create a function that takes an `array` of non-negative integers and strings and
 #
 ### Approach 1: For Loop
 
+The `filterArray` function takes an array `arr` as its argument.
+
+The first step of the function is to create an empty array `filteredArray` that will store the non-negative integers from `arr`. A `for loop` is used to iterate through each element in `arr`. For each element, the `Number.isInteger` method is used to check if it's a non-negative integer. If it is, the element is `pushed` to the `filteredArray` array.
+
+After the loop, the `filteredArray` array now only contains the non-negative integers from `arr`.
+
+Next, the `uniqueNumbers` array is created by using the spread operator`(...)` and the `Set object` to remove any duplicate elements from `filteredArray`. The `Set object` stores only unique values, so when the spread operator is used to convert it back to an array, it will contain only unique values.
+
+Finally, the `uniqueNumbers` array is returned as the result of the function.
+
 ### Implementation
 ```js
 function filterArray(arr){
