@@ -2,6 +2,8 @@
 ### Understanding the problem
 Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.
 
+<b>Notes:</b> All test arrays will have at least one element and are valid.
+
 <pre>
 <b>Input:</b> minMax([1, 2, 3, 4, 5])
 <b>Output:</b> [1, 5]
@@ -10,10 +12,10 @@ Create a function that takes an array of numbers and return both the minimum and
 <b>Input:</b> minMax([1])
 <b>Output:</b> [1, 1]
 </pre>
-<b>Notes:</b> All test arrays will have at least one element and are valid.
+
 #
 
-### Approach : Built-In Functions
+### Approach: Built-In Functions
 ### Implementation
 ```js
 function minMax(arr){
