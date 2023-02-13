@@ -20,9 +20,9 @@ I am providing solutions to coding problems using the JavaScript language.
 |7|[Pair Management](Pair%20Management.md)  |     🟢     |       Arrays       | Spread Syntax, Built-In Functions  | Edabit|
 |8|[How Much is True?](How%20Much%20is%20True%3F.md)  |     🟢     |       Arrays       |  For Loop, Built-In Functions | Edabit|
 |9|[Converting Objects to Arrays](Converting%20Objects%20to%20Arrays.md)   |     🟢     |       Arrays       |  Built-In Functions |Edabit|
-|10|[Array of Multiples](Array%20of%20Multiples.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions |
-|11|[Seven Boom!](Seven%20Boom!.md)   |     🔵   |       Arrays       |  Built-In Functions |
-|12|[Mutations Only: Zeroes to the End](https://github.com/Code1PK/Coding-Challenge/blob/main/Mutations%20Only:%20Zeroes%20to%20the%20End.md)|⚫️|Arrays|   For Loop, Built-In Functions |
+|10|[Array of Multiples](Array%20of%20Multiples.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions |Edabit|
+|11|[Seven Boom!](Seven%20Boom!.md)   |     🔵   |       Arrays       |  Built-In Functions |Edabit|
+|12|[Mutations Only: Zeroes to the End](https://github.com/Code1PK/Coding-Challenge/blob/main/Mutations%20Only:%20Zeroes%20to%20the%20End.md)|⚫️|Arrays|   For Loop, Built-In Functions |Edabit|
 |13|[Two Sum](Two%20Sum.md)  |     🟢     |       Arrays       |  For Loop | LeetCode |
 |14|[Remove Duplicates from Sorted Array](Remove%20Duplicates%20from%20Sorted%20Array.md)   |     🟢     |       Arrays       |  For Loop | LeetCode |
 |15|[Plus One](Plus%20One.md)   |     🟢     |       Arrays       |  For loop | LeetCode |
