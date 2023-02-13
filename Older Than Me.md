@@ -18,7 +18,7 @@ p1.compareAge(p3) ➞ "Lily is the same age as me."
 </pre>
 
 #
-### Approach: For Loop With Built-In Function
+### Approach: 
 
 ### Implementation
 ```js
