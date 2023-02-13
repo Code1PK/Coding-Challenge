@@ -1,4 +1,4 @@
-# What's Hiding Amongst the Crowd?
+# [What's Hiding Amongst the Crowd?](https://edabit.com/challenge/rvsvGvqZ3BzNieKqA)
 
 ### Understanding the problem
 
