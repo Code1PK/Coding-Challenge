@@ -12,7 +12,7 @@ Have the function `LongestWord(sen)` take the `sen` parameter being passed and r
 </pre>
 
 #
-### Approach : Built-In Functions
+### Approach: Built-In Functions
 
 ### Implementation
 ```js
