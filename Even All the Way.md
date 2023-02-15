@@ -14,11 +14,29 @@ Given an `array` of numbers, return an `array` which contains all the `even` num
 </pre>
 
 #
-### Approach: For Loop With Built-In Function
+### Approach 1: For Loop 
+The function first initializes an empty array `result` to store the even numbers that meet the criteria. Then, it loops through the elements of the input array `arr`, starting at index `0` and incrementing by `2` at each iteration, to only check `even indices`. If the current element is `even` (i.e., its value is divisible by 2 with no remainder), it is added to the `result` array using the `push` method.
+
+### Implementation
+```js
+function getOnlyEvens(arr) {
+  let result = []; 
+  for (let i = 0; i < arr.length; i += 2) {
+    if (arr[i] % 2 === 0) {
+      result.push(arr[i]);
+    }
+  }
+  
+  return result;
+}
+
+```
+#
+### Approach 2: Built-In Function
 
 
 ### Implementation
 ```js
-
+f
 
 ```
