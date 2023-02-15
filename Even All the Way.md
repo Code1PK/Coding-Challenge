@@ -33,10 +33,17 @@ function getOnlyEvens(arr) {
 ```
 #
 ### Approach 2: Built-In Function
+The `filter` method creates a new array by filtering out elements from the original array `arr` that don't meet a certain condition. In this case, the condition is that both the element's value and its index are even.
 
+The `filter` method takes a callback function as its argument, which is called for each element in the array. The callback function receives two arguments: the current element `num`, and its index `index`. In this solution, we use an arrow function with a concise body to define the callback function.
+
+The callback function checks if the current element `num` is even (i.e., its value is divisible by 2 with no remainder), and if its index `index` is also even. If both conditions are true, the element is included in the new array returned by the `filter` method. Otherwise, the element is excluded.
 
 ### Implementation
 ```js
-f
-
+function getOnlyEvens(arr) {
+  return arr.filter((num, index) => {
+    return num % 2 === 0 && index % 2 === 0;
+  });
+}
 ```
