@@ -31,4 +31,4 @@ I am providing solutions to coding problems using the JavaScript language.
 |18|[Filter out Strings from an Array](Filter%20out%20Strings%20from%20an%20Array.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions | Edabit|
 |19|[Sort by String Length](Sort%20by%20String%20Length.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions | Edabit|
 |20|[Even All the Way](Even%20All%20the%20Way.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions | Edabit|
-|21|[Absolute Sum]()   |     🟢     |       Arrays       |  For Loop, Built-In Functions | Edabit|
+|21|[Absolute Sum](Absolute%20Sum.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions | Edabit|
