@@ -32,3 +32,4 @@ I am providing solutions to coding problems using the JavaScript language.
 |19|[Sort by String Length](Sort%20by%20String%20Length.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions | Edabit|
 |20|[Even All the Way](Even%20All%20the%20Way.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions | Edabit|
 |21|[Absolute Sum](Absolute%20Sum.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions | Edabit|
+|22|[Find the Largest Numbers in a Group of Arrays](Find%20the%20Largest%20Numbers%20in%20a%20Group%20of%20Arrays.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions | Edabit|
