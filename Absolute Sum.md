@@ -17,17 +17,15 @@ Take an `array` of integers (positive or negative or both) and return the `sum` 
 
 #
 ### Approach 1: For Loop 
-
-
-### Implementation
-```js
-
-```
-#
-### Approach 2: Built-In Function
-
+The `Math.abs()` function is used to get the absolute value of each element. It returns the absolute value of a number, which is the number itself if it's positive, or the negative of the number if it's negative.
 
 ### Implementation
 ```js
-
+function getAbsSum(arr){
+  let sum = 0;
+  for(let i = 0; i < arr.length; i++){ 
+    sum += Math.abs(arr[i]);
+  }
+  return sum;
+}
 ```
