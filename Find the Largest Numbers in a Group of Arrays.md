@@ -15,17 +15,25 @@ Create a function that takes an `array of arrays` with numbers. Return a new (si
 
 #
 ### Approach 1: For Loop 
-
+This function initializes an empty array `result`, and then loops through each sub-array in the input array `arr` using a for loop. For each sub-array, it finds the largest number using the `Math.max` method and the `spread syntax`. It then pushes the largest number onto the `result` array using the `push` method. Finally, the function returns the `result` array.
 
 ### Implementation
 ```js
-
+function findLargestNums(arr) {
+  let result = [];
+  for (let i = 0; i < arr.length; i++){
+    result.push(Math.max(...arr[i]));
+  }
+  return result;
+}
 ```
 #
 ### Approach 2: Built-In Function
-
+This function uses the `map` method to loop through each `sub-array` in the input array `arr`. For each `sub-array`, it finds the largest number using the `Math.max` method and the `spread syntax` (...subArr). It then returns a new array containing the largest number from each sub-array.
 
 ### Implementation
 ```js
-
+function findLargestNums(arr) {
+  return arr.map(subArr => Math.max(...subArr));
+}
 ```
