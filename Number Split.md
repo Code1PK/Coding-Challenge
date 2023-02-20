@@ -16,7 +16,7 @@ Given a `number`, return an `array` containing the two halves of the number. If 
 </pre>
 
 #
-### Approach 1: Built-In Functions  
+### Approach: Built-In Functions  
 The `Math.floor()` static method always rounds down and returns the largest integer less than or equal to a given number.
 
 ### Implementation 1
