@@ -22,11 +22,11 @@ The `Math.floor()` static method always rounds down and returns the largest inte
 ### Implementation 1
 ```js
 function numberSplit(num){
-  let y = Math.floor(num/2);
+  let y = Math.floor(num / 2);
   let x = num - y;
   let result = [];
-  result.push(Math.min(x,y));
-  result.push(Math.max(x,y));
+  result.push(Math.min(x, y));
+  result.push(Math.max(x, y));
   return result;
 }
 ```
