@@ -19,7 +19,7 @@ Given a `number`, return an `array` containing the two halves of the number. If 
 ### Approach 1: Built-In Functions  
 The `Math.floor()` static method always rounds down and returns the largest integer less than or equal to a given number.
 
-### Implementation
+### Implementation 1
 ```js
 function numberSplit(num){
   let y = Math.floor(num/2);
@@ -28,5 +28,18 @@ function numberSplit(num){
   result.push(Math.min(x,y));
   result.push(Math.max(x,y));
   return result;
+}
+```
+### Implementation 2
+```js
+function numberSplit(num) {
+  let left, right;
+  if (num % 2 === 0) {
+    left = right = num / 2;
+  } else {
+    left = Math.floor(num / 2);
+    right = num - left;
+  }
+  return [left, right];
 }
 ```
