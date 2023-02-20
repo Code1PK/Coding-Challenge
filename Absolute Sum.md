@@ -16,7 +16,7 @@ Take an `array` of integers (positive or negative or both) and return the `sum` 
 </pre>
 
 #
-### Approach 1: For Loop 
+### Approach: For Loop 
 The `Math.abs()` function is used to get the absolute value of each element. It returns the absolute value of a number, which is the number itself if it's positive, or the negative of the number if it's negative.
 
 ### Implementation
