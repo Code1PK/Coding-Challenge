@@ -16,10 +16,17 @@ Given a `number`, return an `array` containing the two halves of the number. If 
 </pre>
 
 #
-### Approach 1: For Loop 
-
+### Approach 1: Built-In Functions  
+The `Math.floor()` static method always rounds down and returns the largest integer less than or equal to a given number.
 
 ### Implementation
 ```js
-
+function numberSplit(num){
+  let y = Math.floor(num/2);
+  let x = num - y;
+  let result = [];
+  result.push(Math.min(x,y));
+  result.push(Math.max(x,y));
+  return result;
+}
 ```
