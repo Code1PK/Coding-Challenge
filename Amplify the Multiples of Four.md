@@ -8,6 +8,12 @@ Each number of the sequence that can be `exactly divided by 4` must be `amplifie
 
 Given a higher bound `num`, implement a function that returns an array with the sequence of numbers, after that every multiple of 4 has been amplified.
 
+<b>Notes:</b>
+- The given parameter `num` will always be equal to or greater than 1.
+- Remember to include the `num` as the higher bound of the sequence (see the Examples) above.
+- A number `a` amplified by `a` factor `b` can also be read as: `a * b`.
+- A number `a` is exactly divisible by `a` number `b` when the remainder of the division `a / b` is equal to 0.
+
 <pre>
 <b>Examples:</b>
 <b>Input:</b> amplify(4) <b>Output:</b> [1, 2, 3, 40]
