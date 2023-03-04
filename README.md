@@ -35,3 +35,4 @@ I am providing solutions to coding problems using the JavaScript language.
 |22|[Find the Largest Numbers in a Group of Arrays](Find%20the%20Largest%20Numbers%20in%20a%20Group%20of%20Arrays.md)   |     🟢     |       Arrays       |  For Loop, Built-In Functions | Edabit|
 |23|[Number Split](Number%20Split.md)   |     🟢     |       Arrays       |  Built-In Functions | Edabit|
 |24|[Amplify the Multiples of Four](Amplify%20the%20Multiples%20of%20Four.md)   |     🟢     |       Arrays       |  For Loop | Edabit|
+|25|[Add up the Numbers from a Single Number](Add%20up%20the%20Numbers%20from%20a%20Single%20Number.md)   |     🟢     |       Arrays       |  For Loop | Edabit|
