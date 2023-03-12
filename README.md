@@ -9,11 +9,11 @@ I am providing solutions to coding problems using the JavaScript language.
 
 ## Questions
 
-| | Question                                                      | Difficulty | Category             | Approach                 |Resource|
-|-| ------------------------------------------------------------- | ---------- | -------------------- | ------------------------ |-----|
-|1| [First Reverse](First%20Reverse.md) |     🟢     | Strings             | Built-In Functions, Decrementing For Loop, Recursion  | Coderbyte|
+| | Question | Difficulty | Category | Approach |Resource|
+|-| -------- | ---------- | -------| -------- |-----|
+|1| [First Reverse](First%20Reverse.md) |     🟢     | Strings | Built-In Functions, Decrementing For Loop, Recursion  | Coderbyte|
 |2| [Find the Smallest and the Biggest Numbers](Find%20the%20Smallest%20and%20Biggest%20Numbers.md)| 🟢| Arrays | Built-In Functions|Edabit|
-|3| [Longest Word](Longest%20Word.md)                           |     🟢     |       Strings       | Built-In Functions  |Coderbyte|
+|3| [Longest Word](Longest%20Word.md) |     🟢     |       Strings       | Built-In Functions  |Coderbyte|
 |4| [What's Hiding Amongst the Crowd?](What's%20Hiding%20Amongst%20the%20Crowd%3F.md)  |     🟢     |       Arrays       | For Loop  |Edabit|
 |5| [Older Than Me](Older%20Than%20Me.md)  |     🟢     |       Arrays       | Conditions  | Edabit|
 |6|[Sum of Polygon Angles](Sum%20of%20Polygon%20Angles.md) |     🟢     |       Numbers       | Math  | Edabit|
