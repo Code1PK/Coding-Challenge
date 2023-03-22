@@ -16,7 +16,8 @@ Create a function that takes an `array` of numbers and return both the `minimum`
 #
 
 ### Approach: Built-In Functions
-- The `Math.min()` static method returns the smallest of the numbers given as input parameters, or Infinity if there are no parameters.
+- The `Math.min()` static method returns the smallest of the numbers given as input parameters.
+- The `Math.max()` static method returns the largest of the numbers given as input parameters.
 ### Implementation
 ```js
 function minMax(arr){
