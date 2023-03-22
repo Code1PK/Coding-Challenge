@@ -1,6 +1,6 @@
 # [Find the Smallest and Biggest Numbers](https://edabit.com/challenge/Q3n42rEWanZSTmsJm)
 ### Understanding the problem
-Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.
+Create a function that takes an `array` of numbers and return both the `minimum` and `maximum` numbers, in that order.
 
 <b>Notes:</b> All test arrays will have at least one element and are valid.
 
