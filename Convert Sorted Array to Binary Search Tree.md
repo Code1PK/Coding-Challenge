@@ -1,16 +1,20 @@
-# [Add up the Numbers from a Single Number](https://edabit.com/challenge/4gzDuDkompAqujpRi)
+# [ Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 
 ### Understanding the problem
 
-Create a function that takes a number as an argument. Add up all the numbers from 1 to the number you passed to the function. For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.
+Given an integer array `nums` where the elements are sorted in `ascending` order, convert it to a 
+height-balanced `binary search tree`.
 
-<b>Notes:</b> Expect any positive number between 1 and 1000.
+<b>Constraints:</b>
+
+- 1 <= nums.length <= 104
+- -104 <= nums[i] <= 104
+- nums is sorted in a strictly `increasing` order.
 
 <pre>
 <b>Examples:</b>
-<b>Input:</b> addUp(4) <b>Output:</b> 10
-<b>Input:</b> addUp(13) <b>Output:</b> 91
-<b>Input:</b> addUp(600) <b>Output:</b> 180300
+<b>Input:</b> nums = [-10,-3,0,5,9] <b>Output:</b> [0,-3,9,-10,null,5], [0,-10,5,null,-3,null,9]
+<b>Input:</b> nums = [1,3] <b>Output:</b> [3,1], [1,null,3]
 </pre>
 
 #
@@ -19,11 +23,5 @@ Create a function that takes a number as an argument. Add up all the numbers fro
 
 ### Implementation
 ```js
-function addUp(number){
-  let sum = 0;
-  for(let i=1; i<=number; i++){
-    sum += i;
-  }
-  return sum;
-}
+
 ```
