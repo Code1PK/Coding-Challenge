@@ -18,7 +18,7 @@ height-balanced `binary search tree`.
 </pre>
 
 #
-### Approach: For Loop 
+### Approach: 
 
 
 ### Implementation
