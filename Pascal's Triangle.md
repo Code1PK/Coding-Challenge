@@ -1,19 +1,18 @@
-# [ Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+# [ Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
 
 ### Understanding the problem
+Given an integer `numRows`, return the first numRows of `Pascal's triangle`.
 
-
+In `Pascal's triangle`, each number is the sum of the two numbers directly above it.
 
 <b>Constraints:</b>
 
-- 1 <= nums.length <= 104
-- -104 <= nums[i] <= 104
-- nums is sorted in a strictly `increasing` order.
+- 1 <= numRows <= 30
 
 <pre>
 <b>Examples:</b>
-<b>Input:</b> nums = [-10,-3,0,5,9] <b>Output:</b> [0,-3,9,-10,null,5], [0,-10,5,null,-3,null,9]
-<b>Input:</b> nums = [1,3] <b>Output:</b> [3,1], [1,null,3]
+<b>Input:</b> numRows = 5 <b>Output:</b> [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+<b>Input:</b> numRows = 1 <b>Output:</b> [[1]]
 </pre>
 
 #
