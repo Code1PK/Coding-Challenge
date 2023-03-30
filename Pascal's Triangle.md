@@ -16,7 +16,7 @@ In `Pascal's triangle`, each number is the sum of the two numbers directly above
 </pre>
 
 #
-### Approach: 
+### Approach: Dynamic programming approach (tabulation)
 
 
 ### Implementation
