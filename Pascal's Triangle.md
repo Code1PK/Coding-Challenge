@@ -17,7 +17,7 @@ In `Pascal's triangle`, each number is the sum of the two numbers directly above
 
 #
 ### Approach: Dynamic programming approach (tabulation)
-
+`Tabulation` is an approach where you solve a dynamic programming problem by first filling up a table, and then compute the solution to the original problem based on the results in this table.
 
 ### Implementation
 ```js
