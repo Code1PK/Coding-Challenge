@@ -1,4 +1,4 @@
-# [ Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
+# [ Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 ### Understanding the problem
 Given an integer `numRows`, return the first numRows of `Pascal's triangle`.
