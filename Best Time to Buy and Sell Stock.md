@@ -15,13 +15,13 @@ Return `the maximum profit you can achieve from this transaction`. If you cannot
 <pre>
 <b>Examples:</b>
 <b>Input:</b> prices = [7,1,5,3,6,4] <b>Output:</b> 5 <b>Explanation:</b> Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
-`Note` that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
+Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
 <b>Input:</b> prices = [7,6,4,3,1] <b>Output:</b> 0 <b>Explanation:</b> In this case, no transactions are done and the max profit = 0.
 </pre>
 
 #
 ### Approach: 
-.
+
 
 ### Implementation
 ```js
