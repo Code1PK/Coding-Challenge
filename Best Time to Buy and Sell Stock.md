@@ -14,26 +14,16 @@ Return `the maximum profit you can achieve from this transaction`. If you cannot
 
 <pre>
 <b>Examples:</b>
-<b>Input:</b> numRows = 5 <b>Output:</b> [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
-<b>Input:</b> numRows = 1 <b>Output:</b> [[1]]
+<b>Input:</b> prices = [7,1,5,3,6,4] <b>Output:</b> 5 <b>Explanation:</b> Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
+`Note` that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
+<b>Input:</b> prices = [7,6,4,3,1] <b>Output:</b> 0 <b>Explanation:</b> In this case, no transactions are done and the max profit = 0.
 </pre>
 
 #
-### Approach: Dynamic programming approach (tabulation)
-`Tabulation` is an approach where you solve a dynamic programming problem by first filling up a table, and then compute the solution to the original problem based on the results in this table.
+### Approach: 
+.
 
 ### Implementation
 ```js
-let generate = function(numRows) {
-    const table = [];
-    for (let i = 0; i < numRows; i++) {
-        table[i] = [];
-        table[i][0] = 1;
-        for (let j = 1; j < i; j++) {
-            table[i][j] = table[i-1][j-1] + table[i-1][j]
-        }
-        table[i][i] = 1;
-    }
-    return table;
-}
+
 ```
