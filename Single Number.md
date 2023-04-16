@@ -12,8 +12,9 @@ You must implement a solution with a linear runtime complexity and use only cons
 
 <pre>
 <b>Examples:</b>
-<b>Input:</b>  <b>Output:</b> 5 
-<b>Input:</b> prices = [7,6,4,3,1] <b>Output:</b> 0 
+<b>Input:</b> nums = [2,2,1] <b>Output:</b> 1 
+<b>Input:</b> nums = [4,1,2,1,2] <b>Output:</b> 4 
+<b>Input:</b> nums = [1] <b>Output:</b> 1 
 </pre>
 
 #
