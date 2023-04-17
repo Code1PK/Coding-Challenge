@@ -18,10 +18,17 @@ You must implement a solution with a linear runtime complexity and use only cons
 </pre>
 
 #
-### Approach: For Loop
-
+### Approach: Bit Manipulation
+The `bitwise XOR (^)` operator returns a number or BigInt whose binary representation has a `1` in each bit position for which the corresponding bits of either but not both operands are `1`.
 
 ### Implementation
 ```js
+function singleNumber(nums){
+  let result = 0;
+  for(let i = 0; i < nums.length; i++){
+    result ^= nums[i];
+  }
+  return result;
+}
 
 ```
