@@ -10,6 +10,8 @@ The majority element is the element that appears more than `⌊n / 2⌋` times. 
 - 1 <= n <= 5 * 104
 - -109 <= nums[i] <= 109
 
+<b>Note: </b>Could you solve the problem in linear time and in O(1) space?
+
 <pre>
 <b>Examples:</b>
 <b>Input:</b> nums = [2,2,1] <b>Output:</b> 1 
