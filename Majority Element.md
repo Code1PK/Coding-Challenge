@@ -1,14 +1,14 @@
-# [ Single Number](https://leetcode.com/problems/single-number/)
+# [ Majority Element](https://leetcode.com/problems/majority-element/)
 
 ### Understanding the problem
-Given a non-empty array of integers `nums`, every element appears twice except for one. Find that single one.
+Given an array `nums` of size `n`, return the `majority` element.
 
-You must implement a solution with a linear runtime complexity and use only constant extra space.
+The majority element is the element that appears more than `⌊n / 2⌋` times. You may assume that the majority element always exists in the array.
 
 <b>Constraints:</b>
-- 1 <= nums.length <= 3 * 104
-- -3 * 104 <= nums[i] <= 3 * 104
-- Each element in the array appears twice except for one element which appears only once.
+- n == nums.length
+- 1 <= n <= 5 * 104
+- -109 <= nums[i] <= 109
 
 <pre>
 <b>Examples:</b>
