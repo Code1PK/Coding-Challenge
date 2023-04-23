@@ -19,9 +19,22 @@ The majority element is the element that appears more than `⌊n / 2⌋` times. 
 </pre>
 
 #
-### Approach: 
+### Approach: For Loop
 
 ### Implementation
 ```js
-
+function majorityElement(nums){
+  let maxTimes = Math.floor(nums.length / 2);
+  for(let i = 0; i < nums.length; i++){
+    count = 0;
+    for(let j = 0; j < nums.length; j++){
+      if(nums[i] === nums[j]){
+        count ++;
+      }
+    if(count > maxTimes){
+      return nums[i];
+    }
+    }
+  }
+}
 ```
