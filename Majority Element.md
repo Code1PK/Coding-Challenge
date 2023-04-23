@@ -38,3 +38,38 @@ function majorityElement(nums){
   }
 }
 ```
+#
+### Approach: Boyer–Moore Majority Vote Algorithm
+
+The `Boyer–Moore majority vote algorithm` is an algorithm for finding the `majority` of a sequence of elements using `linear time` and `constant space`. It is named after Robert S. Boyer and J Strother Moore, who published it in 1981, and is a prototypical example of a streaming algorithm.
+
+This solution uses a variable majority to keep track of the current candidate for the majority element, and a variable count to keep track of the number of times that candidate has been seen so far.
+
+The function starts by assuming that the first element in the array is the majority element, and sets count to 1. Then, it loops through the rest of the elements in the array and updates majority and count accordingly.
+
+If the current element is the same as the current candidate majority, then count is incremented. If the current element is different from majority and count is greater than 1, then count is decremented to "cancel out" the previous element seen.
+
+If count reaches 0, then the current element becomes the new candidate for the majority element, and count is reset to 1.
+
+At the end of the loop, majority should contain the majority element.
+
+### Implementation
+```js
+function majorityElement(nums) {
+  let majority = nums[0];
+  let count = 1;
+  
+  for (let i = 1; i < nums.length; i++) {
+    if (nums[i] === majority) {
+      count++;
+    } else if (count > 1) {
+      count--;
+    } else {
+      majority = nums[i];
+      count = 1;
+    }
+  }
+  
+  return majority;
+}
+```
