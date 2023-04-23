@@ -40,4 +40,4 @@ I am providing solutions to coding problems using the JavaScript language.
 |27|[ Pascal's Triangle](Pascal's%20Triangle.md)  |     🟢     |       Arrays       |  For Loop | LeetCode |
 |28|[ Best Time to Buy and Sell Stock](Best%20Time%20to%20Buy%20and%20Sell%20Stock.md)  |     🟢     |       Arrays       |  For Loop | LeetCode |
 |29|[ Single Number](Single%20Number.md)  |     🟢     |       Arrays       |  Bit Manipulation | LeetCode |
-|30|[Majority Element](Majority%20Element.md)  |     🟢     |       Arrays       |   | LeetCode |
+|30|[Majority Element](Majority%20Element.md)  |     🟢     |       Arrays       | Boyer–Moore Algorithm  | LeetCode |
