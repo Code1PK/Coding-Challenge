@@ -19,7 +19,7 @@ The majority element is the element that appears more than `⌊n / 2⌋` times. 
 </pre>
 
 #
-### Approach: For Loop
+### Approach 1: For Loop
 
 ### Implementation
 ```js
@@ -39,7 +39,7 @@ function majorityElement(nums){
 }
 ```
 #
-### Approach: Boyer–Moore Majority Vote Algorithm
+### Approach 2: Boyer–Moore Majority Vote Algorithm
 
 The `Boyer–Moore majority vote algorithm` is an algorithm for finding the `majority` of a sequence of elements using `linear time` and `constant space`. It is named after Robert S. Boyer and J Strother Moore, who published it in 1981, and is a prototypical example of a streaming algorithm.
 
