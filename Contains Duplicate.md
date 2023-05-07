@@ -15,7 +15,7 @@ Given an integer array `nums`, return `true` if any value appears at least twice
 </pre>
 
 #
-### Approach: Brute Force
+### Approach: Brute Force with For Loop
 
 ### Implementation
 ```js
