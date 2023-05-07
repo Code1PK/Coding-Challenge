@@ -15,9 +15,22 @@ Given an integer array `nums`, return `true` if any value appears at least twice
 </pre>
 
 #
-### Approach: 
+### Approach: Brute Force
 
 ### Implementation
 ```js
-
+function containsDuplicate(arr){
+  let duplicate;
+  for(let i = 0; i < arr.length; i ++){
+    for(let j = 1; j < arr.length; j ++){
+      if(arr[i] === arr[j]){
+         duplicate = true;
+        break;
+      } else {
+        duplicate = false;
+      }
+    }
+    return duplicate;
+  }
+}
 ```
