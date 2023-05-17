@@ -42,3 +42,5 @@ I am providing solutions to coding problems using the JavaScript language.
 |29|[ Single Number](Single%20Number.md)  |     🟢     |       Arrays       |  Bit Manipulation | LeetCode |
 |30|[Majority Element](Majority%20Element.md)  |     🟢     |       Arrays       | Boyer–Moore Algorithm  | LeetCode |
 |31|[Contains Duplicate](Contains%20Duplicate.md)  |     🟢     |       Arrays       | For Loop | LeetCode | 
+|32|[Missing Number](Missing%20Number.md)  |     🟢     |       Arrays       | For Loop | LeetCode | 
+
